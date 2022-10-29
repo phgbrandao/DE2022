@@ -24,7 +24,7 @@ services:
     user: root
     ports:
       - "8888:8888"
-      - "4040:4040"
+      - "4040:4041"
     environment:
       - JUPYTER_ENABLE_LAB=yes
     volumes:
